@@ -6,6 +6,22 @@
      <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="main.css">
     <title>Razorpay</title>
+    <style>
+      .companiesList {
+        position: relative; /* or absolute/fixed depending on your layout */
+        animation: movecompany 10s linear infinite;
+      }
+    
+      @keyframes movecompany {
+        0% {
+          top: 0;
+        }
+        100% {
+          top: -50%;
+        }
+      }
+    </style>
+    
 </head>
 <body>
   <div class="overflow-x-hidden relative w-full">
@@ -685,20 +701,100 @@
 
       <!--join razorpay section-->
       <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[90px] -z-10">
-        <div class="w-11/12 max-w-[1080px] flex flex-row">
+        <div class="w-11/12 max-w-[1080px] flex flex-row mx-auto">
           <!--left part-->
-          <div class="flex flex-col justify-center max-w[calc(100%-500px)]">
-            <h3>Join the 50,00,00+ business using Razorpay</h3>
-            <div></div>
-            <p> We make it easier for you to focus on building great products while we work on simple-pricing</p>
-            <p> Focus on your business while we handle the complexeties of paymets for  you.</p>
+          <div class="flex flex-col justify-center max-w-[calc(100%-500px)]
+">
+            <h3 class="font-mullish font-bold text-2xl text-deepBlue">Join the 50,00,00+ business using Razorpay</h3>
+            <div class="w-6 h-1 bg-greenLight max-w-[calc(100%-500px)]
+            "></div>
+            <p class="font-mullish opacity-80 my-6 ">  We make it easier for you to focus on building great products while we work on simplifying your payments.Become one of us by joining thousand of our 
+              happy users and simplify the online payment experince for your customers.
+            </p >
+            <p class="font-mullish  opacity-80"> Focus on your business while we handle the complexeties of paymets for  you.</p>
           </div>
 
           <!--right-->
-          <div>
-            <img src="./razorpayimages/comanies.png" alt="">
+          <div class="h-[500px] w-[500px] realtive overflow-y-hidden">
+            <div style="background: linear-gradient(180deg,#f4f8ff,#fff0)"
+            class="absolute  w-full h-[150px] top-0 z-50">
+
+            </div>
+            <img src="./razorpayimages/comanies.png" alt=""
+            class="object-cover companiesList"
+            >
           </div>
 
+          <div style="background: linear-gradient(0deg,#f4f8ff,#fff0)"
+          class="absolute w-full h-[150px] bottom-0">
+
+          </div>
+
+
+        </div>
+      </section>
+
+
+      <!--testimonial section-->
+
+
+      <section class="relative ">
+        <div class="mx-auto  w-11/12 mxax-w-[1300px] realtive py-20">
+          <img src="./razorpayimages/feature-section1-dottedrows.png" alt=""
+          class="absolute w-[200px] top-[8rem] left-[2rem] z-2">
+
+          <h2 class="font-mullish font-bold text-2xl text-deepBlue text-center"> An Experince<br>People Love to Talk About</h2>
+          <div class="w-6 h-1 bg-green-500 mx-auto"></div>
+       
+        <!--left button-->
+        <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute top-1/2 left-0 flex justify-center items-center" >
+          <div class="w-[65%] h-[65%] mix-blend-multiply riunded-full flex justify-center items-center ">
+            <i
+            data-feather="chevron-right" class="
+            stroke-[5px] w-6 h-6 md:h-10 text-gray-400 rotate-180 ">
+
+
+            </i>
+          </div>
+        </button >
+
+            <!--right button-->
+            <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute top-1/2 right-0 flex justify-center items-center">
+              <div>
+                <i
+            data-feather="chevron-right" class="
+            stroke-[5px] w-6 h-6  text-gray-400 rotate-180 ">
+            </i>
+              </div>
+            </button>
+
+            <!--main content-->
+            <div class="flex flex-row max-w-[960px] items-center  mx-auto justify-between">
+              <!-- left image -->
+               <img src="./razorpayimages/testimonial.jpg" alt=""
+                height="320px"width="320px" class="rounded-xl">
+
+               <!--right part-->
+               <div class="max-w-[400px]">
+               <img src="./razorpayimages/quotes.svg" alt=""
+               width="35px"
+               heigth="40px"
+               class="-mb-2">
+
+               <p class="font-mullish text-3xl font-extralight">
+                Readymade Closed Wallet Solution For Quick Refunds
+               </p>
+               <a href="" class="text-grayText italic underline">Lear More</a>
+               <p class="font-mullish font-extrabold text-2xl">Lorem Ipsum</p>
+               <p class="font-mullish font-medium">CEO,XYZ Engineering Comapny</p>
+               <img src="./razorpayimages/fake-company-logo.png" alt="" width="80px" heigth="40px">
+              </div>
+
+            </div>
+            <!--6 dot wala div-->
+            <div>
+              <div></div>
+            </div>
 
         </div>
       </section>
