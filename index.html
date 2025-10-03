@@ -2,14 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="main.css">
     <title>Razorpay</title>
+
+    <!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <style>
+      
       .companiesList {
         position: relative; /* or absolute/fixed depending on your layout */
         animation: movecompany 10s linear infinite;
+      }
+   /* Agar tumhara matlab background image ko full cover karana hai,
+to sahi likhna hoga: */
+.ctasection{
+       background-size: 100% 100%;
       }
     
       @keyframes movecompany {
@@ -134,7 +147,7 @@
           <img src="./razorpayimages/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" 
         class= "absolute top-0 left-[0rem] inline-block -z-10" >
       
-          <img src="./razorpayimages/feature-section1-dottedrows.png" alt="" width="233" height="167"
+          <img src="./razorpayimages/feature-section1-dottedrows copy.png" alt="" width="233" height="167"
           class="absolute top-[3rem] right-0 inline-block rotate-180">
           <div class="relative w-11/12 m-w-[1080px] mx-auto pt-4 ">
               <!---heading-->
@@ -739,16 +752,20 @@
 
 
       <section class="relative ">
-        <div class="mx-auto  w-11/12 mxax-w-[1300px] realtive py-20">
-          <img src="./razorpayimages/feature-section1-dottedrows.png" alt=""
-          class="absolute w-[200px] top-[8rem] left-[2rem] z-2">
+        <div class="  w-11/12  mx-auto max-w-[1300px] relative py-20 ">
+          <img src="./razorpayimages/feature-section1-dottedrows copy.png" alt=""
+          class="absolute w-[200px] top-[10rem] left-[2rem] sz-2">
 
           <h2 class="font-mullish font-bold text-2xl text-deepBlue text-center"> An Experince<br>People Love to Talk About</h2>
           <div class="w-6 h-1 bg-green-500 mx-auto"></div>
        
-        <!--left button-->
-        <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute top-1/2 left-0 flex justify-center items-center" >
-          <div class="w-[65%] h-[65%] mix-blend-multiply riunded-full flex justify-center items-center ">
+   
+
+            <!--main content-->
+            <div class="flex flex-row max-w-[960px] items-center  mx-auto justify-between my-40">
+              <!--left button-->
+        <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute top-1/2  flex justify-center items-center left-0" >
+          <div class="w-[65%] h-[65%] mix-blend-multiply rounded-full flex justify-center items-center ">
             <i
             data-feather="chevron-right" class="
             stroke-[5px] w-6 h-6 md:h-10 text-gray-400 rotate-180 ">
@@ -759,7 +776,7 @@
         </button >
 
             <!--right button-->
-            <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute top-1/2 right-0 flex justify-center items-center">
+            <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute top-1/2  flex justify-center items-center right-0 ">
               <div>
                 <i
             data-feather="chevron-right" class="
@@ -768,15 +785,14 @@
               </div>
             </button>
 
-            <!--main content-->
-            <div class="flex flex-row max-w-[960px] items-center  mx-auto justify-between">
+              
               <!-- left image -->
-               <img src="./razorpayimages/testimonial.jpg" alt=""
-                height="320px"width="320px" class="rounded-xl">
+               <img src="./razorpayimages/testimonial copy.jpg" alt=""
+                height="320px" width="320px" class="rounded-xl z-20">
 
                <!--right part-->
                <div class="max-w-[400px]">
-               <img src="./razorpayimages/quotes.svg" alt=""
+               <img src="./razorpayimages/quotes copy.svg" alt=""
                width="35px"
                heigth="40px"
                class="-mb-2">
@@ -787,19 +803,86 @@
                <a href="" class="text-grayText italic underline">Lear More</a>
                <p class="font-mullish font-extrabold text-2xl">Lorem Ipsum</p>
                <p class="font-mullish font-medium">CEO,XYZ Engineering Comapny</p>
-               <img src="./razorpayimages/fake-company-logo.png" alt="" width="80px" heigth="40px">
+               <img src="./razorpayimages/fake-company-logo copy.png" alt="" width="80px" heigth="40px">
               </div>
 
             </div>
             <!--6 dot wala div-->
-            <div>
-              <div></div>
+            <div class="w-full flex flex-row space-x-2 justify-center my-16">
+              <!--dot1-->
+              <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+               <!--dot2-->
+               <div class="h-[10px] w-[10px] bg-lightBlue rounded-full"></div>
+                <!--dot3-->
+              <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+               <!--dot4-->
+               <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+                <!--dot5-->
+              <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+               <!--dot6-->
+               <div class="h-[10px] w-[10px] bg-gray-300 rounded-full"></div>
+
+            
             </div>
 
+            <section>
+
+            </section>
         </div>
       </section>
 
+    <!--CTA-->
+    <section class="bg-[url(/razorpayimages/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctasection ">
+      <!--main content-->
+       <div class="w-11/12 max-w-[1080px] relative flex mx-auto flex-row items-center justify-between space-x-20 p-16">
+       
+        <!--left part-->
+        <div class="flex flex-col gap-5 max-w-[400px] ">
+          <h2 class="font-mullish font-bold text-2xl text-white ">Super your business with Razorpay</h2>
+          <div class="w-6 h-1  bg-greenLight"></div>
+          <p class="font-mullish text-white">Sign up now to experince the future of payments and offer <br>your customers
+            the best checkout experience.
+          </p>
+          <ul class="flex flex-row  flex-wrap gap-11  text-white ">
+            <li class="flex flex-row font-mullish text-white ">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span> Quick Onboarding</span>
+            </li>
 
+            <li class="flex flex-row font-mullish text-white ">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>Acess to entire product suite </span>
+            </li>
+            <li class="flex flex-row font-mullish text-white ">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>API</span>
+            </li>
+            <li class="flex flex-row font-mullish text-white ">
+              <i data-feather="check" class="text-greenLight"></i>
+              <span>24x7</span>
+            </li>
+            
+          </ul>
+
+          <button class="min-w-[32px] font-mullish text-sm font-bold text-lightBlue border flex rounded-sm 
+          items-center hover:text-lightBlue transition-all duration-200 py-3 px-4
+          bg-white place-self-start">
+            Sign Up
+            <!--svg lagana hai arrow-->
+
+  
+          </button>
+        </div>
+     
+
+        <!-- right side wali imge-->
+         <img src="./razorpayimages/ctaImg.svg" alt="">
+
+
+
+       </div>
+    </section>
 
   </div>
  
