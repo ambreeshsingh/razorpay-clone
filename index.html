@@ -39,7 +39,7 @@ to sahi likhna hoga: */
 <body>
   <div class="overflow-x-hidden relative w-full">
     <!--nav baar-->
-    <nav class="bg-deepBlue ">
+    <nav class="bg-deepBlue mx-auto">
       <div class="relative w-[1080px] mx-auto flex items-center space-x-6">
         <!-- logo-->
          <a href="" class="cursor-pointer py-7 pr-7" >
@@ -95,14 +95,19 @@ to sahi likhna hoga: */
             
           </ul>
       
-          <div class="flex space-x-6">
+          <div class="flex space-x-16">
              <img  src="./razorpayimages/india-flag.svg" width="28px" >
              <button class="py-3 px-3 font-mullish text-white border rounded text-small font-bold">Log in</button>
             <a href="#" >
-               <button class="bg-white font-mullish text-lightBlue300 hover:text-lightBlue500  rounded-sm  text-sm px-4 py-4 border transition-all duration-200 flex relative "><div>Sign Up</div> 
-                  <img src="./razorpayimages/arrow.webp" 
-                  width="12px"
-                  class="absolute right-0 bottom-5">
+               <button class="bg-white font-mullish text-lightBlue300 hover:text-deepBlue rounded text-sm px-4 py-4 border transition-all duration-200 flex relative ">
+                Sign Up
+                <!--aroow-->
+          <svg width="50%"  viewBox="0 0 24 24" class=" my-auto w-5 " fill="none" xmlns="http://www.w3.org/2000/svg" >
+            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+
+                  
                </button>
               </a>
       
@@ -118,18 +123,19 @@ to sahi likhna hoga: */
       <section class="relative bg-deepBlue">
           <div class="flex flex-row justify-between items-center mx-auto w-10/12 ,max-w-[1080px]">
               <!--left prt-->
-              <div >
-              <h1 class="font-mullish font-bold text-40px leading-3 text-white">power your finance ,grow your business</h1>
-              <div class="w-6 h-1 bg-greenLight"></div>
+              <div class="flex flex-col gap-10">
+              <h1 class="font-mullish font-bold text-40px leading-3 text-2xl  text-white">Power your finance ,grow your business</h1>
+              <div class="w-6 h-1 bg-greenLight "></div>
               <p class="font-mullish text-18px text-white opacity-60">
                   Accept payments from customers.
-                  Automate payouts 
-                  to vendors & emplyoees.Never run out of working
+                  Automate <br>payouts 
+                  to vendors & emplyoees.
+                  Never run <br> out of working
                   capital.
               </p>
               <button class="bg-lightBlue text-white rounded font-mulish 
-              font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px]">Sign Up Now</button>
-              </div>
+              font-bold hover:bg-lightBlue500 transition-all duration-200 py-[14px] px-[18px] max-w-[120px]">Sign Up Now</button>
+             </div>
               <!--right prt-->
               <img src="./razorpayimages/hero-illustration.jpg" 
               class="w-full max-w-[680px]">
@@ -144,7 +150,7 @@ to sahi likhna hoga: */
       
       <!--feature section 1-->
       <section class="relative mt-[190px] overflow-hidden ">
-          <img src="./razorpayimages/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167" 
+          <img src="./razorpayimages/feature-section1-dottedrows copy.png" alt="" loading="lazy" width="233" height="167" 
         class= "absolute top-0 left-[0rem] inline-block -z-10" >
       
           <img src="./razorpayimages/feature-section1-dottedrows copy.png" alt="" width="233" height="167"
@@ -174,7 +180,7 @@ to sahi likhna hoga: */
                               <span>Industry Leading sucess Rate</span>
                           </li>
                           <li class="font-mullish flex items-center space-x-2">
-                              <i data-feather="check" class="bg-yellow-300"></i>
+                              <i data-feather="check" class="text-greenLight"></i>
                               <span>superior Checkout experience</span>
                           </li>
                           <li class="font-mullish flex items-center space-x-2">
@@ -330,7 +336,7 @@ to sahi likhna hoga: */
       </section>
       
       <!--feature section 2-->
-      <section class="bg-[url(./razorpayimages/feature-section-2BG.svg)] bg-cover mt-14 bg-no-repeat pt-[16rem] pb-[500px] overflow-x-hidden">
+      <section class="bg-[url(./razorpayimages/feature-section-2BG.svg)] bg-cover mt-14 bg-no-repeat pt-[16rem] pb-[500px] overflow-x-hidden ">
         <!--iske andar 3no div aate hai-->
         <div class="w-10/12 max-w[1080px] mx-auto relative pt-4 ">
           <h2 class="font-mullish font-bold text-center text-2xl leading-1.2 text-white ">Explore Razorpay Business Banking</h2>
@@ -351,8 +357,8 @@ to sahi likhna hoga: */
             height="36px"
             class="absolute top-[150px] -right-[180px] w-[200px]">
       
-            <!--conyent box-->
-            <div class="w-full bg-[#181c2e] p-10 py-12 flex border rounded z-20 relative mt-24" >
+            <!--content box-->
+            <div class="w-full bg-[#181c2e] p-10 py-12 flex border rounded z-20 relative mt-24 mb-16" >
               <!--left part-->
               <div class="flex flex-col gap-20 justify-between items-start h-full w-full ">
                 <h3 class="font-mullish text-[28px] text-white font-bold leading-10 max-w-[500px]">Manage your company's finances with
@@ -383,10 +389,10 @@ to sahi likhna hoga: */
               </ul>
       
               <div class="flex flex-row  items-center gap-10 ">
-                <button class="bg-lightBlue w-fit py-[14px] px-[18px]  rounded-md font-mullish
-                font-bold hover:bg-lightBlue500 transition-all duration-200 relative ">Sign Up Know
+                <button class="bg-lightBlue w-fit py-[15.5px] px-[26px]  rounded-md font-mullish
+                font-bold  hover:bg-lightBlue500 transition-all duration-200 relative ">Sign Up Know
                 
-                <div class="w-12 h-[47px] bg-greenLight absolute skew-x-12 bottom-1 left-32 top-[0.2px] flex items-center justify-center">
+                <div class="w-12 h-[47px] bg-greenLight absolute skew-x-12 bottom-1 top-0 -right-5 flex items-center justify-center">
                   <!--aroow-->
                   <svg width="50%"  viewBox="0 0 24 24" class="-skew-x-12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -407,10 +413,10 @@ to sahi likhna hoga: */
               <img src="./razorpayimages/buisness-banking.png" alt="" class="absolute max-w-[450px] right-0 bottom-10">
             </div>
             <!--card box-->
-            <div class="grid grid-cols-3 w-full gap-4 ">
+            <div class="grid grid-cols-3 w-full gap-4 mb-20 mt-14">
               <div class="w-full min-h-[15rem] relative cursor-pointer">
                 <img src="./razorpayimages/payment-link-icon.svg" alt="" class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200">
-                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200" style="stroke-opacity: 0.15">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200 " style="stroke-opacity: 0.15">
                   <path d="m 0 6 a 6 6 0 0 1 6 -6 h 250.32501220703125 a 16 16 0 0 1 11 5 l 77 77 a 16 16 0 0 1 5 11 v 126 a 6 6 0 0 1 -6 6 h -337.32501220703125 a 6 6 0 0 1 -6 -6 z" fill="#fff"></path>
                 </svg>
                 <div class="z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8">
@@ -464,14 +470,14 @@ to sahi likhna hoga: */
       
             <!--demo box-->
            <div class="flex w-full flex-row items-center justify-evenly border
-             mb-24 gap-y-6 p-8 relative  rounded-md  ">
+             mb-24 gap-y-6 p-8 relative  rounded-md mt-20 ">
               <p class="font-mullish text-white text-xl">Check out the live demo to learn how RazorpayX works.
                 <span class="font-bold">No sign-up required!</span>
               </p>
-              <button class="bg-lightBlue w-fit py-[14px] px-[18px] rounded-md font-mullish
-                font-bold hover:bg-lightBlue500 transition-all duration-200 relative ">Check out the Demo
+              <button class="bg-lightBlue w-fit py-[15.5px] px-[22px] rounded-md font-mullish
+                font-bold hover:bg-lightBlue500 transition-all duration-200 relative max-w-[240px]" >Check out the Demo
                 
-                <div class="w-12 h-[47px] bg-greenLight absolute skew-x-12 left-40 top-[0.5px] flex items-center justify-center">
+                <div class="w-12 h-[47px] bg-greenLight absolute skew-x-12 flex items-center justify-center top-0 -right-5">
                   <!--aroow-->
                   <svg width="50%"  viewBox="0 0 24 24" class="-skew-x-12 absolute" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -488,9 +494,9 @@ to sahi likhna hoga: */
       <!--new features-->
       <section class="bg-white relative ">
         <div class="w-10/12 max-w[1080px] mx-auto relative pt-4">
-          <img src="./razorpayimages/feature-section1-dottedrows.png" alt=""
+          <img src="./razorpayimages/feature-section1-dottedrows copy.png" alt=""
           class="absolute w-[233px] left-[300px] -top-[6rem] z-[10]">
-          <img src="./razorpayimages/feature-section1-dottedrows.png" alt=""
+          <img src="./razorpayimages/feature-section1-dottedrows copy.png" alt=""
           class="absolute w-[233px] -right-[3.5rem] -top-[6rem] z-[10px]">
           <div class="grid grid-cols-3 gap-y-10 gap-x-4 relative z-[100]" >
             <!--item 1-->
@@ -914,15 +920,22 @@ to sahi likhna hoga: */
       <h3 class="font mullish text-black text-bold text-2xl">SUBSCRIBE TO OUR NEWSLETTER</h3>
     </div>
     <!--button-->
-    <div class="flex flexrow justify-between">
-      <button class="flex">your email address</button>
-      <button class=" font-mullish mx-auto hover:text-deepBlue transition-all duration-200 text-lightBlue rounded flex flex-row justify-between p-5" 
-      width="32px"><p>Subscribe</p>
-        <!--aroow-->
-        <svg width="50%"  viewBox="0 0 24 24" class=" absolute w-5 " fill="none" xmlns="http://www.w3.org/2000/svg" >
-          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-      </button>
+    <div class="flex flex-row justify-between ">
+      <div>
+        <button class="flex mx-auto bg-white border justify-center items-center p-5">Your Email Address</button>
+      </div>
+
+      <div>
+        <button class=" font-mullish mx-auto hover:text-deepBlue transition-all duration-200 text-lightBlue border flex flex-row justify-between p-5" 
+        width="32px">Subscribe
+          <!--aroow-->
+          <svg width="50%"  viewBox="0 0 24 24" class=" my-auto w-5 " fill="none" xmlns="http://www.w3.org/2000/svg" >
+            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+        </button>
+      </div>
+     
     </div>
     <div class=" flex flex-row justify-between">
       <img src="./razorpayimages/footer-certificate-1.png" alt="" width="90px">
@@ -1005,7 +1018,7 @@ to sahi likhna hoga: */
 
   <div class="flex flex-col justify-evenly gap-5 p-3">
     <!--sub box 1-->
-    <div class="max-w-[300px] flex flex-col justify-evenly p-3 gap-3">
+    <div class="max-w-[300px] flex flex-col justify-evenly  gap-3 top-0">
       <h1 class="text-black text-2xl font-mullish">ACCEPT PAYMETS</h1>
       <div><a href="" class="font-mullish text-lightBlue text-1xl">Payment Gateway </a></div>
       <div><a href="" class="font-mullish text-lightBlue text-1xl">Payment Pages</a></div>
@@ -1058,9 +1071,9 @@ to sahi likhna hoga: */
   </div>
    
   <!--box 4-->
-  <div class="flex flex-col justify-evenly gap-5 p-3">
+  <div class="flex flex-col justify-evenly gap-5 ">
   <!--sub1-->
-  <div class="max-w-[300px] flex flex-col justify-evenly p-3 gap-3 ">
+  <div class="max-w-[300px] flex flex-col justify-evenly top-0 gap-3 ">
     <h1 class="text-black text-2xl font-mullish">COMPANY</h1>
     <div><a href=""  class="font-mullish text-lightBlue text-1xl">About Us</a></div>
     <div>
@@ -1079,7 +1092,7 @@ to sahi likhna hoga: */
   </div>
 
   <!--sub2-->
-  <div class="max-w-[300px] flex flex-col justify-evenly p-3 gap-3">
+  <div class="max-w-[300px] flex flex-col justify-evenly py-20 gap-6">
     <h1 class="text-black text-2xl font-mullish">HELP & SUPPORT</h1>
     <div><a href=""  class="font-mullish text-lightBlue text-1xl">Support </a></div>
     <div><a href=""  class="font-mullish text-lightBlue text-1xl">Knowledege base</a></div>
@@ -1104,16 +1117,14 @@ to sahi likhna hoga: */
   </div>
 
 
-  <!--sub5-->
-  <div >
-    <h1 class="text-black text-2xl font-mullish">EGD. OFFICE ADDRESSI</h1>
-    
-  </div>
-
   <!--sub6-->
   <div class="max-w-[230px]" >
-    <p class="font-mullish ">azorpay Software Private Limite st Floor, SJR Cyber,
-      2 Laskar Hosur Road, Adugodi, ingaluru, 560030. arnataka,
+
+ 
+    <h1 class="text-black text-2xl font-mullish">OFFICE ADDRESSI</h1>
+  
+    <p class="font-mullish ">Razorpay Software Private Limite st Floor, SJR Cyber,
+      2 Laskar Hosur Road, Adugodi, bangaluru, 560030. arnataka,
       CN: U72200KA2013PTC097389
       
     </p>
@@ -1121,15 +1132,10 @@ to sahi likhna hoga: */
   </div>
 
 
-  <!--sub7-->
-  <div>
-    <p class="font-mullish">Razorpay 2022</p>
-  </div>
-
-
 
   <!--sub8-->
   <div>
+    <p class="font-mullish">Razorpay 2022</p>
     <p class="font-mullish">Rights Reserved</p>
   </div>
 
