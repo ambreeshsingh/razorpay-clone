@@ -1,17 +1,17 @@
-Razorpay Clone
+Razorpay Clone =>
 A simple and responsive Razorpay website clone built using HTML and Tailwind CSS.
 
-Tech Stack
-HTML5
+Tech Stack =>
+HTML5 ,
 Tailwind CSS
 
-Features
-Fully responsive layout
+Features =>
+Fully responsive layout,
 Clean and organized code
 
-About
+About =>
 This project was created for learning and practice purposes to improve front-end design skills.
 
-Author
+Author =>
 Ambreesh Singh
 
